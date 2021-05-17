@@ -1,9 +1,9 @@
-import React from 'react'
+import "./CSS/contact.css"
 
 export default function Contact() {
   // email form sends me an email right from the website
   return (
-    <div>
+    <div id ="contact">
       <h1>Contact</h1>
       <form>
         <label>Name: </label>

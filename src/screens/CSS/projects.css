@@ -1,12 +1,7 @@
-#aboutme {
+#projects {
+  background-color: rgb(107, 190, 190);
   height: 100vh;
-  background-color: pink;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-#content {
-  margin: 0 auto;
-  width: 80%;
 }

@@ -1,8 +1,8 @@
-import React from 'react'
+import "./CSS/projects.css"
 
 export default function Projects() {
   return (
-    <div>
+    <div id="projects">
       <h1>Projects</h1>
       <h2>Skate Bored</h2>
       <p>Description and skills used</p>
