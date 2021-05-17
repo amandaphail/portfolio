@@ -1,7 +1,14 @@
-#projects {
+#projectspage {
   background-color: rgb(107, 190, 190);
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+#projects {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
 }
