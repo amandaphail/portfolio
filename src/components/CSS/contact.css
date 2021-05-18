@@ -5,3 +5,37 @@
   flex-direction: column;
   justify-content: center;
 }
+
+#formcontainer {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+#contactform {
+  /* width: 100vw; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  width: 600px;
+}
+textarea {
+  height: 10em;
+  width: 600px;
+}
+
+/* div[role="alert"] {
+  color: red;
+  margin-top: 1em;
+} */
+
+.message-chars-left {
+  width: 600px;
+  margin: auto;
+  text-align: left;
+}
