@@ -1,4 +1,5 @@
 import "./CSS/projects.css"
+import SkateBored from "../images/skatebored.png"
 
 export default function Projects() {
   return (
@@ -8,10 +9,11 @@ export default function Projects() {
       <div id="projects">
 
       <div>
-      <h2>Skate Bored</h2>
-      <p>Description and skills used</p>
-      <a href="http://skate-bored.surge.sh/">Visit Site</a>
-      <a href="https://github.com/amandaphail/Skate-Bored">Code</a>
+          <h2>Skate Bored</h2>
+          <img id="skatebored" alt="skate bored website" src={SkateBored} />
+          <p>Description and skills used</p>
+          <a href="http://skate-bored.surge.sh/">Visit Site</a>
+          <a href="https://github.com/amandaphail/Skate-Bored">Code</a>
       </div>
       
       <div>
