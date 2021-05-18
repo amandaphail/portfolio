@@ -54,7 +54,7 @@ export default function Contact() {
             placeholder="Name"
             maxLength='30'
             // aria-invalid={errors.user_name ? "true" : "false"}
-            {...register('name', { required: true })} />
+            {...register('user_name', { required: true })} />
           
         
         {/* <label>Email Address: </label> */}
@@ -63,7 +63,7 @@ export default function Contact() {
             name="user_email"
             placeholder="Email"
             maxLength='30'
-            {...register('email', { required: true })} />
+            {...register('user_email', { required: true })} />
         
           {/* <label>Message: </label> */}
           <div>
