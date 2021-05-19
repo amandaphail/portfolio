@@ -13,6 +13,7 @@
   display: flex;
   justify-content: center;
   /* align-items: center; */
+  margin: 50px 0 50px 0;
 }
 
 #contactform {
@@ -27,6 +28,11 @@
 input {
   width: 600px;
 }
+
+#input {
+  margin: 10px 0 10px 0;
+}
+
 textarea {
   height: 10em;
   width: 600px;
@@ -45,4 +51,5 @@ textarea {
 
 #submit {
   width: 70px;
+  margin-top: 10px;
 }

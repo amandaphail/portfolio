@@ -41,6 +41,7 @@ export default function Contact() {
       {/* <h1>Contact</h1> */}
 
       <h2>Let's create something cool!</h2>
+      <p>I'm currently located in NYC, but I'm open to remote roles work as well, so feel free to send me a message!  </p>
       <p>You can submit this form with your contact information, or you can email me directly at amandalphail@gmail.com.  </p>
 
       <div id="formcontainer">
@@ -49,7 +50,7 @@ export default function Contact() {
           
         <input type='hidden' name='contact_number' value={contactNumber} />
 
-          <input
+          <input id="input"
             type="text"
             name="user_name"
             placeholder="Name"
@@ -58,6 +59,7 @@ export default function Contact() {
             {...register('user_name', { required: true })} />
           
           <input
+            id="input"
             type="text"
             name="user_email"
             placeholder="Email"
@@ -65,7 +67,11 @@ export default function Contact() {
             {...register('user_email', { required: true })} />
 
           {/* <div> */}
-          <textarea type="text" name="message" placeholder="Message" maxLength='1500' {...register('message', { required: true })} />
+          <textarea
+            id="input"
+            type="text"
+            name="message" placeholder="Message" maxLength='1500'
+            {...register('message', { required: true })} />
           <p className='message-chars-left'>{messageCharsLeft}</p>
           {/* </div> */}
 
