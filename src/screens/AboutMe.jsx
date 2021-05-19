@@ -13,7 +13,7 @@ export default function AboutMe() {
 
           <p>Checkout my <a href="https://github.com/amandaphail">Github</a> and <a href="https://github.com/amandaphail">LinkedIn</a>!</p>
 
-          <p>You can download my Resume here!</p>
+          <p>You can download my Resume <a href="https://drive.google.com/file/d/1G7f6uNeVH98V29M908wCcjHAcndVuRpX/view?usp=sharing">here</a>!</p>
         </div>
       </div>
     </div>
