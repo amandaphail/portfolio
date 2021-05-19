@@ -7,11 +7,11 @@
 }
 
 #formcontainer {
-  margin: 0 auto;
-  height: 100%;
+  /* margin: 0 auto; */
+  /* height: 100%; */
   width: 100%;
-  /* display: flex; */
-  /* justify-content: center; */
+  display: flex;
+  justify-content: center;
   /* align-items: center; */
 }
 
@@ -41,4 +41,8 @@ textarea {
   width: 600px;
   margin: auto;
   text-align: left;
+}
+
+#submit {
+  width: 70px;
 }

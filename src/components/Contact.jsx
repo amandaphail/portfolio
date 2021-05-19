@@ -72,7 +72,7 @@ export default function Contact() {
           </div>
 
         
-        <input type="submit"/>
+        <input id="submit" type="submit"/>
       </form>
       </div>
     </div>
