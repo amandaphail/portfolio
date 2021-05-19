@@ -23,20 +23,12 @@ export default function AboutMe() {
             <p id="left">Back end: Database manipulation, MongoDB, Mongoose, Express, Ruby on Rails, PostgreSQL APIs</p>
           </div>
           
-          {/* <p>Programming:
-          <ul>
-              <li>Command Line Interface</li>
-              <li>Git</li>
-              <li>JavaScript</li>
-              <li>Node.js</li>
-            </ul>
-Front end: CSS, HTML5, DOM Manipulation, OOP, React, Life Cycle, Hooks, Router, Material UI
-Back end: Database manipulation, MongoDB, Mongoose, Express, Ruby on Rails, PostgreSQL APIs</p> */}
 
 
 
 
-          <p>Checkout my <a href="https://github.com/amandaphail" target="_blank" rel="noopener noreferrer">Github</a> and <a href="https://www.linkedin.com/in/amandaphail/" target="_blank" rel="noopener noreferrer">LinkedIn</a>!</p>
+
+          
 
           <p>You can download my Resume <a href="https://drive.google.com/file/d/1G7f6uNeVH98V29M908wCcjHAcndVuRpX/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>!</p>
         </div>
