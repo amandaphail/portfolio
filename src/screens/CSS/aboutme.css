@@ -6,7 +6,19 @@
   justify-content: center;
 }
 
+#body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 #content {
-  margin: 0 auto;
-  width: 80%;
+  /* margin: 0 auto; */
+  width: 50%;
+}
+
+#me {
+  width: 20%;
+  /* margin: 0 200px 0 200px; */
+  /* height: auto; */
 }

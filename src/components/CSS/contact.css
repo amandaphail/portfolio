@@ -10,6 +10,9 @@
   margin: 0 auto;
   height: 100%;
   width: 100%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 #contactform {
@@ -17,7 +20,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: center; */
   align-items: center;
 }
 
