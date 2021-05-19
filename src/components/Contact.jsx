@@ -7,7 +7,7 @@ init("user_aXzM1BchPF4BuGEiiuTNw");
 export default function Contact() {
   // email form sends me an email right from the website
   
-  const { register, handleSubmit, watch, errors } = useForm();
+  const { register, handleSubmit, watch } = useForm();
   // const onSubmit = data => console.log(data);
   
   const message = watch('message') || "";
