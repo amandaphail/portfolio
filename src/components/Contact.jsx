@@ -8,7 +8,6 @@ export default function Contact() {
   // email form sends me an email right from the website
   
   const { register, handleSubmit, watch } = useForm();
-  // const onSubmit = data => console.log(data);
   
   const message = watch('message') || "";
   const messageCharsLeft = 1500 - message.length;
@@ -39,15 +38,17 @@ export default function Contact() {
 
   return (
     <div id ="contact">
-      <h1>Contact</h1>
+      {/* <h1>Contact</h1> */}
+
+      <h2>Let's create something cool!</h2>
+      <p>You can submit this form with your contact information, or you can email me directly at amandalphail@gmail.com.  </p>
+
       <div id="formcontainer">
 
         <form id="contactform" onSubmit={handleSubmit(onSubmit)}>
           
         <input type='hidden' name='contact_number' value={contactNumber} />
 
-          {/* <label>Name: </label> */}
-          {/* {errors.user_name && errors.user_name.type === "required" && (<div role="alert">Name is required<br/></div>)} */}
           <input
             type="text"
             name="user_name"
@@ -56,22 +57,18 @@ export default function Contact() {
             // aria-invalid={errors.user_name ? "true" : "false"}
             {...register('user_name', { required: true })} />
           
-        
-        {/* <label>Email Address: </label> */}
           <input
             type="text"
             name="user_email"
             placeholder="Email"
             maxLength='30'
             {...register('user_email', { required: true })} />
-        
-          {/* <label>Message: </label> */}
-          <div>
+
+          {/* <div> */}
           <textarea type="text" name="message" placeholder="Message" maxLength='1500' {...register('message', { required: true })} />
           <p className='message-chars-left'>{messageCharsLeft}</p>
-          </div>
+          {/* </div> */}
 
-        
         <input id="submit" type="submit"/>
       </form>
       </div>
