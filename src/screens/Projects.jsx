@@ -15,8 +15,8 @@ export default function Projects() {
           <div>
           <h2>Skate Bored</h2>
           <p>Description and skills used</p>
-          <a href="http://skate-bored.surge.sh/">Visit Site</a>
-          <a href="https://github.com/amandaphail/Skate-Bored">Code</a>
+          <a href="http://skate-bored.surge.sh/" target="_blank" rel="noopener noreferrer">Visit Site</a>
+          <a href="https://github.com/amandaphail/Skate-Bored" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
       </div>
       
@@ -25,8 +25,8 @@ export default function Projects() {
           <div id="center">
           <h2 id="long">Experience a Memory</h2>
           <p>Description and skills used</p>
-          <a href="https://experience-a-memory.netlify.app/">Visit Site</a>
-          <a href ="https://github.com/amandaphail/VisualizeAMemory">Code</a>
+          <a href="https://experience-a-memory.netlify.app/" target="_blank" rel="noopener noreferrer">Visit Site</a>
+          <a href ="https://github.com/amandaphail/VisualizeAMemory" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
 
       </div>
@@ -37,8 +37,8 @@ export default function Projects() {
           <div>
           <h2>The Gallery</h2>
           <p>Description and skills used</p>
-          <a href="https://thegalleryforyou.netlify.app/">Visit Site</a>
-          <a href ="https://github.com/amandaphail/TheGallery">Code</a>
+          <a href="https://thegalleryforyou.netlify.app/" target="_blank" rel="noopener noreferrer">Visit Site</a>
+          <a href ="https://github.com/amandaphail/TheGallery"target="_blank" rel="noopener noreferrer">Code</a>
           </div>
       </div>
     
