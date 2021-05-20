@@ -1,7 +1,8 @@
 #aboutme {
   height: 100vh;
-  background-color: lavender;
-  border: 3px solid black;
+  border: 30px solid rgb(101, 91, 126);
+  /* background-color: lavender; */
+  /* border: 3px solid black; */
   display: flex;
   flex-direction: column;
   justify-content: center;
