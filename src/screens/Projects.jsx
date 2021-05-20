@@ -6,7 +6,7 @@ import Gallery from "../images/thegallery.png"
 export default function Projects() {
   return (
     <div id="projectspage">
-      <h1>Projects</h1>
+      <h1>Check out my projects</h1>
 
       <div id="projects">
 
