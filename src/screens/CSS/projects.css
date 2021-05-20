@@ -26,12 +26,13 @@
   width: 400px;
   height: auto;
   margin-right: 50px;
+  /* box-shadow: 5px 5px 5px gray; */
 }
 
 #proj {
   width: 90%;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   margin: 25px 0 25px 0;
 }
 
@@ -42,14 +43,34 @@
   margin: 25px 0 25px 0;
 } */
 
-#long {
+/* #long {
   width: 150px;
-  /* text-align: center; */
-}
+} */
 
-#center {
+#projcontent {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+
+/* #left {
+} */
+
+#site {
+  border: 1px solid purple;
+  background-color: lavender;
+  padding: 10px;
+  margin: 10px;
+}
+
+#code {
+  border: 1px solid purple;
+  background-color: lavender;
+  padding: 10px;
+  margin: 10px;
+}
+
+#links {
+  margin-top: 30px;
 }
