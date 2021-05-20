@@ -9,9 +9,8 @@ export default function Title() {
       </video>
       
       <div id="mytitle">
-        <h1>Amanda Phail</h1>
-        <h2>Software Engineer,</h2>
-        <h3>FullStack Developer</h3>
+        <h1 id ="myname">Amanda Phail</h1>
+        <h2 id="titlename">Software Engineer | Full Stack Developer</h2>
       </div>
     </div>
   )
