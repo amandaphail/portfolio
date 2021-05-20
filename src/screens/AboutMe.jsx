@@ -8,7 +8,7 @@ export default function AboutMe() {
         <img id="me" alt="Me" src={me}></img>
 
         <div id ="content">
-          <h1 id="who">Who am I?</h1>
+          <h1 id="who">Who am I ?</h1>
           <p id="about"> I'm a resilient software engineer with a client-facing background, always excited to explore in the world, and in technology. While I value both my independence and freedom, I am also a supportive team player, finding success through creativity, confidence, understanding and open mindedness.</p>
 
           <h4 id="tech">

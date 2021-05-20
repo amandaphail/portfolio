@@ -42,9 +42,12 @@ export default function Contact() {
     <div id ="contact">
       {/* <h1>Contact</h1> */}
 
-      <h2>Let's create something cool!</h2>
-      <p>I'm currently located in NYC, but I'm open to remote roles work as well, so feel free to send me a message!  </p>
-      <p>You can submit this form with your contact information, or you can email me directly at amandalphail@gmail.com.  </p>
+      <h2 id="create">Let's create something cool!</h2>
+
+      <div id="text">
+      <p>I'm currently located in NYC, but I'm open to remote work as well, so feel free to send me a message!  </p>
+      <p>You can submit this form with your contact information, or you can email me directly at <span id="email">amandalphail@gmail.com</span>.  </p>
+      </div>
 
       <div id="formcontainer">
 

@@ -1,6 +1,6 @@
 #contact {
   /* background-color: lavender; */
-  height: 100vh;
+  height: 100%;
 
   /* border-top: 30px solid rgb(101, 91, 126); */
   /* border-right: 100px solid rgb(101, 91, 126); */
@@ -10,6 +10,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
 }
 
 #formcontainer {
@@ -29,6 +31,22 @@
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
+}
+
+#create {
+  color: rgb(71, 142, 160);
+  font-family: "Shadows Into Light", cursive;
+  font-size: 70px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+#text {
+  width: 70%;
+}
+
+#email {
+  color: rgb(86, 172, 6);
 }
 
 input {
