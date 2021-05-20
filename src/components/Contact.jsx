@@ -21,7 +21,7 @@ export default function Contact() {
   
 
   const onSubmit = (data) => {
-    console.log(data);
+    // console.log(data);
     generateContactNumber();
     sendForm('portfolio_contact_form', 'template_qczgo6i', '#contactform')
       .then(function(response) {
@@ -29,6 +29,8 @@ export default function Contact() {
       }, function(error) {
         console.log('FAILED...', error);
       });
+      alert("Thank you for your email!  i'll get back to you soon.");
+
   }
 
 

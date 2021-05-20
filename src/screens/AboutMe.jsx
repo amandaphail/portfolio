@@ -8,17 +8,17 @@ export default function AboutMe() {
         <img id="me" alt="Me" src={me}></img>
 
         <div id ="content">
-          <h1>About Me</h1>
-          <p>Resilient software engineer with a client-facing background, always excited to explore in the world, and in technology. While I value both my independence and freedom, I am also a supportive team player, finding success through creativity, confidence, understanding and open mindedness.</p>
+          <h1 id="who">Who am I?</h1>
+          <p id="about"> I'm a resilient software engineer with a client-facing background, always excited to explore in the world, and in technology. While I value both my independence and freedom, I am also a supportive team player, finding success through creativity, confidence, understanding and open mindedness.</p>
 
-          <h4>
+          <h4 id="tech">
             Technical Skills:
           </h4>
           
           <div id="skills">
-            <p id="left">Programming: Command Line Interface, Git, JavaScript, Node.js</p>
+            <p id="left"><span>Programming:</span> Command Line Interface, Git, JavaScript, Node.js</p>
 
-            <p id="left">Front end: CSS, HTML5, DOM Manipulation, OOP, React, Life Cycle, Hooks, Router, Material UI</p>
+            <p id="left"><span>Front end:</span> CSS, HTML5, DOM Manipulation, OOP, React, Life Cycle, Hooks, Router, Material UI</p>
 
             <p id="left">Back end: Database manipulation, MongoDB, Mongoose, Express, Ruby on Rails, PostgreSQL APIs</p>
           </div>

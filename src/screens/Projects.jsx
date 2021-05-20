@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <div id="projectspage">
       
-      <h1 id="projectstitle">Some of my Favorite Projects</h1>
+      <h1 id="projectstitle">Recent work:</h1>
       
 
       <div id="projects">

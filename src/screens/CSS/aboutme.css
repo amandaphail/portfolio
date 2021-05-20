@@ -1,6 +1,8 @@
+
+
 #aboutme {
-  height: 100vh;
-  border: 30px solid rgb(101, 91, 126);
+  height: 100%;
+  border-top: 30px solid rgb(101, 91, 126);
   /* background-color: lavender; */
   /* border: 3px solid black; */
   display: flex;
@@ -10,8 +12,9 @@
 
 #body {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  margin-top: 60px;
 }
 
 #content {
@@ -20,14 +23,39 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+#who {
+  color: rgb(71, 142, 160);
+  font-family: "Shadows Into Light", cursive;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+#about {
+  width: 70%;
+  /* display: flex; */
 }
 
 #me {
-  width: 20%;
+  width: 30%;
+  /* margin: 0 auto; */
   /* margin: 0 200px 0 200px; */
   /* height: auto; */
+  border-radius: 20px;
 }
 
+#tech {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(71, 142, 160);
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+span {
+  font-weight: bold;
+}
 /* ul {
   width: 300px;
   list-style-type: square;

@@ -2,9 +2,10 @@
   /* background-color: lavender; */
   height: 100vh;
 
-  border-top: 30px solid rgb(101, 91, 126);
-  border-right: 100px solid rgb(101, 91, 126);
+  /* border-top: 30px solid rgb(101, 91, 126); */
+  /* border-right: 100px solid rgb(101, 91, 126); */
   border-bottom: 30px solid rgb(101, 91, 126);
+  background-color: rgb(247, 247, 252);
 
   display: flex;
   flex-direction: column;

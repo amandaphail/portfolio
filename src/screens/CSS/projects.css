@@ -3,9 +3,9 @@
   height: 100%;
   /* width: 100vw; */
 
-  border-top: 30px solid rgb(101, 91, 126);
+  /* border-top: 30px solid rgb(101, 91, 126);
   border-left: 60px solid rgb(101, 91, 126);
-  border-bottom: 30px solid rgb(101, 91, 126);
+  border-bottom: 30px solid rgb(101, 91, 126); */
 
   display: flex;
   flex-direction: column;
@@ -16,8 +16,8 @@
 
 #projectstitle {
   /* font-family: "Monoton", cursive; */
-  font-family: "KoHo", sans-serif;
-  color: rgb(68, 95, 68);
+  /* font-family: "KoHo", sans-serif; */
+  color: rgb(71, 142, 160);
   font-size: 50px;
   border-bottom: 1px solid black;
 }
