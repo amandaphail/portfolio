@@ -44,3 +44,12 @@
   /* width: 100%; */
   /* padding: 20px; */
 }
+
+@media only screen and (max-width: 550px) {
+  #myname {
+    font-size: 40px;
+  }
+  #titlename {
+    font-size: 15px;
+  }
+}
