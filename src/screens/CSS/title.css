@@ -13,12 +13,16 @@
 }
 
 #myname {
-  font-size: 70px;
+  font-size: 90px;
+  margin-bottom: 0;
+  /* background: rgba(0, 0, 0, 0.5); */
+  /* width: 50%; */
 }
 
-/* #titlename {
+#titlename {
+  font-size: 30px;
   color: rgb(161, 248, 173);
-} */
+}
 
 #myVideo {
   /* position: fixed; */
@@ -36,7 +40,6 @@
   width: 100%;
   /* text-align: center; */
   /* bottom: 0; */
-  /* background: rgba(0, 0, 0, 0.5); */
   color: #f1f1f1;
   /* width: 100%; */
   /* padding: 20px; */
