@@ -1,6 +1,7 @@
 #aboutme {
   height: 100vh;
-  background-color: pink;
+  background-color: lavender;
+  border: 3px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
