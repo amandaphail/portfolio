@@ -68,3 +68,28 @@ span {
 #left {
   text-align: left;
 }
+
+@media only screen and (max-width: 1100px) {
+  #body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #me {
+    width: 70%;
+  }
+
+  #who {
+    font-size: 35px;
+  }
+  #about {
+    width: 100%;
+  }
+
+  #skills {
+    width: 100%;
+  }
+}
