@@ -54,6 +54,10 @@
   align-items: flex-start;
 }
 
+#projheadline {
+  margin: 0;
+}
+
 /* #left {
 } */
 
