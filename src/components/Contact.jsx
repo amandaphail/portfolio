@@ -83,7 +83,7 @@ export default function Contact() {
         <input id="submit" type="submit"/>
       </form>
       </div>
-      <p>Dont forget to checkout my <a href="https://github.com/amandaphail" target="_blank" rel="noopener noreferrer">Github</a> and <a href="https://www.linkedin.com/in/amandaphail/" target="_blank" rel="noopener noreferrer">LinkedIn</a>!</p>
+      <p>Don't forget to checkout my <a href="https://github.com/amandaphail" target="_blank" rel="noopener noreferrer">Github</a> and <a href="https://www.linkedin.com/in/amandaphail/" target="_blank" rel="noopener noreferrer">LinkedIn</a>!</p>
     </div>
   )
   }
