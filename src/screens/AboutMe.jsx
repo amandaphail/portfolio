@@ -20,7 +20,7 @@ export default function AboutMe() {
 
             <p id="left"><span>Front end:</span> CSS, HTML5, DOM Manipulation, OOP, React, Life Cycle, Hooks, Router, Material UI</p>
 
-            <p id="left">Back end: Database manipulation, MongoDB, Mongoose, Express, Ruby on Rails, PostgreSQL APIs</p>
+            <p id="left"><span>Back end:</span> Database manipulation, MongoDB, Mongoose, Express, Ruby on Rails, PostgreSQL APIs</p>
           </div>
           
 

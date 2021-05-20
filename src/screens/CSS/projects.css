@@ -18,8 +18,10 @@
   /* font-family: "Monoton", cursive; */
   /* font-family: "KoHo", sans-serif; */
   color: rgb(71, 142, 160);
-  font-size: 50px;
-  border-bottom: 1px solid black;
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 40px;
+  /* border-bottom: 1px solid black; */
 }
 
 #projects {
