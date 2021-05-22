@@ -106,9 +106,14 @@ span {
   }
   #about {
     width: 100%;
+    font-size: 13px;
   }
 
   #skills {
     width: 100%;
+  }
+
+  p {
+    font-size: 13px;
   }
 }
