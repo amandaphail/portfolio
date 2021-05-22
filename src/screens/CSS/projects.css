@@ -121,3 +121,43 @@
     width: 80%;
   }
 }
+
+@media only screen and (max-width: 550px) {
+  #proj {
+    width: 100%;
+    padding: 20px;
+    padding-top: 50px;
+  }
+
+  #projimg {
+    width: 100%;
+    margin: 0;
+  }
+
+  #projcontent {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #left {
+    font-size: 13px;
+  }
+
+  #links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+
+  #projheadline {
+    font-size: 20px;
+  }
+
+  #site {
+    font-size: 12px;
+  }
+
+  #code {
+    font-size: 12px;
+  }
+}
