@@ -112,3 +112,17 @@ textarea {
     width: 300px;
   }
 }
+
+@media only screen and (max-width: 550px) {
+  #input {
+    width: 200px;
+  }
+
+  .message-chars-left {
+    width: 200px;
+  }
+
+  #submit {
+    font-size: 12px;
+  }
+}
