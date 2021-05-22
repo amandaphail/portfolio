@@ -4,7 +4,7 @@ import background from "../videos/background.mp4"
 export default function Title() {
   return (
     <div id="title">
-      <video autoPlay muted loop id="myVideo">
+      <video autoPlay muted loop  id="myVideo">
         <source src={background} type="video/mp4"/>
       </video>
       
