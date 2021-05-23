@@ -43,6 +43,6 @@
   }
 
   #title {
-    height: auto;
+    height: 0;
   }
 }
