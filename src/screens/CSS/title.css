@@ -2,7 +2,7 @@
 
 #title {
   background-color: rgb(101, 91, 126);
-  height: 100%;
+  /* height: 100%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,7 +42,7 @@
     font-size: 15px;
   }
 
-  #title {
+  /* #title {
     height: 100%;
-  }
+  } */
 }
