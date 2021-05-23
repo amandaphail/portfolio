@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 
 #title {
@@ -35,11 +34,15 @@
   color: #f1f1f1;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 800px) {
   #myname {
     font-size: 40px;
   }
   #titlename {
     font-size: 15px;
+  }
+
+  #title {
+    height: 100%;
   }
 }
