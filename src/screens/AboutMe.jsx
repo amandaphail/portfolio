@@ -24,12 +24,6 @@ export default function AboutMe() {
           </div>
           
 
-
-
-
-
-          
-
           <p>You can download my Resume <a href="https://drive.google.com/file/d/1G7f6uNeVH98V29M908wCcjHAcndVuRpX/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>!</p>
         </div>
       </div>
