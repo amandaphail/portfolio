@@ -3,18 +3,18 @@ import me from "../images/me.jpeg"
 
 export default function AboutMe() {
   return (
-    <div id ="aboutme">
+    <div id="aboutme">
       <div id="body">
         <img id="me" alt="Me" src={me}></img>
 
-        <div id ="content">
+        <div id="content">
           <h1 id="who">Who am I ?</h1>
           <p id="about"> I'm a resilient software engineer with a client-facing background, always excited to explore in the world, and in technology. While I value both my independence and freedom, I am also a supportive team player, finding success through creativity, confidence, understanding and open mindedness.</p>
 
           <h4 id="tech">
             Technical Skills:
           </h4>
-          
+
           <div id="skills">
             <p id="left"><span>Programming:</span> Command Line Interface, Git, JavaScript, Node.js</p>
 
@@ -22,9 +22,9 @@ export default function AboutMe() {
 
             <p id="left"><span>Back end:</span> Database manipulation, MongoDB, Mongoose, Express, Ruby on Rails, PostgreSQL APIs</p>
           </div>
-          
 
-          <p>You can download my Resume <a href="https://drive.google.com/file/d/1G7f6uNeVH98V29M908wCcjHAcndVuRpX/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>!</p>
+
+          <p>You can download my Resume <a href="https://drive.google.com/file/d/1SnTfrgFHFOdsryXOb2gmaN9eaeNLmCEd/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>!</p>
         </div>
       </div>
     </div>
