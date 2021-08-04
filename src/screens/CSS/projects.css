@@ -52,6 +52,11 @@
   font-size: 30px;
 }
 
+#left{
+  text-align: left;
+  margin: 10px;
+}
+
 #site {
   border: 1px solid purple;
   background-color: lavender;
