@@ -16,11 +16,31 @@ export default function AboutMe() {
           </h4>
 
           <div id="skills">
-            <p id="left"><span>Programming:</span> Command Line Interface, Git, JavaScript, Node.js</p>
-
-            <p id="left"><span>Front end:</span> CSS, HTML5, DOM Manipulation, OOP, React, Life Cycle, Hooks, Router, Material UI</p>
-
-            <p id="left"><span>Back end:</span> Database manipulation, MongoDB, Mongoose, Express, Ruby on Rails, PostgreSQL APIs</p>
+            <div id="points">
+              <ul>
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Node.js</li>
+                <li>DOM Manipulation</li>
+                <li>OOP</li>
+                <li>Material UI</li>
+                <li>Responsive Design</li>
+                <li>Axios</li>
+              </ul><ul>
+                <li>RESTful API's</li>
+                <li>Database manipulation</li>
+                <li>MongoDB</li>
+                <li>Mongoose</li>
+                <li>Express</li>
+                <li>PostgreSQL</li>
+                <li>Ruby on Rails</li>
+                <li>Command Line Interface</li>
+                <li>Git</li>
+                <li>NPM</li>
+              </ul>
+            </div>
           </div>
 
 
