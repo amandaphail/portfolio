@@ -41,15 +41,13 @@ export default function Contact() {
 
   return (
     <div id="contact">
-      {/* <h1>Contact</h1> */}
-
       <h2 id="create">Let's create something cool!</h2>
+      <div id="contactcontent">
 
       <div id="text">
         <p>I'm currently located in NYC, but I'm open to remote work as well, so feel free to send me a message!  </p>
         <p>You can submit this form with your contact information, or you can email me directly at <span id="email">amandalphail@gmail.com</span>.  </p>
       </div>
-
       <div id="formcontainer">
         <form id="contactform" onSubmit={handleSubmit(onSubmit)}>
           <input type='hidden' name='contact_number' value={contactNumber} />
@@ -82,6 +80,7 @@ export default function Contact() {
           <input id="submit" type="submit" />
         </form>
       </div>
+            </div>
       <p>Don't forget to checkout my <a href="https://github.com/amandaphail" target="_blank" rel="noopener noreferrer">Github</a> and <a href="https://www.linkedin.com/in/amandaphail/" target="_blank" rel="noopener noreferrer">LinkedIn</a>!</p>
     </div>
   )
