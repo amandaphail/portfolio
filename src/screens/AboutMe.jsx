@@ -8,7 +8,6 @@ export default function AboutMe() {
         <img id="me" alt="Me" src={me}></img>
 
         <div id="content">
-          {/* <h1 id="who">Who am I ?</h1> */}
           <p id="about"> I'm a resilient software engineer with a client-facing background, always excited to explore in the world, and in technology. While I value both my independence and freedom, I am also a supportive team player, finding success through creativity, confidence, understanding and open mindedness.</p>
 
           <h4 id="tech">
@@ -37,7 +36,7 @@ export default function AboutMe() {
           </div>
 
 
-          <p>You can download my Resume <a href="https://drive.google.com/file/d/1SnTfrgFHFOdsryXOb2gmaN9eaeNLmCEd/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>!</p>
+          <p>You can download my Resume <a href="https://drive.google.com/file/d/1kaHLCeut5iiwyi68YStcNB8wN42lrc-f/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>!</p>
         </div>
       </div>
     </div>
