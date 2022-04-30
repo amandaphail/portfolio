@@ -10,7 +10,7 @@ export default function Title() {
       
       <div id="mytitle">
         <h1 id ="myname">Amanda Phail</h1>
-        <h2 id="titlename">Software Engineer | Full Stack Developer</h2>
+        <h2 id="titlename">Software Engineer</h2>
       </div>
     </div>
   )

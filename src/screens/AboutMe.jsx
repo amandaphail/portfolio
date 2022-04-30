@@ -8,7 +8,7 @@ export default function AboutMe() {
         <img id="me" alt="Me" src={me}></img>
 
         <div id="content">
-          <h1 id="who">Who am I ?</h1>
+          {/* <h1 id="who">Who am I ?</h1> */}
           <p id="about"> I'm a resilient software engineer with a client-facing background, always excited to explore in the world, and in technology. While I value both my independence and freedom, I am also a supportive team player, finding success through creativity, confidence, understanding and open mindedness.</p>
 
           <h4 id="tech">
@@ -20,25 +20,18 @@ export default function AboutMe() {
               <ul>
                 <li>React</li>
                 <li>JavaScript</li>
+                <li>TypeScript</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>Node.js</li>
-                <li>DOM Manipulation</li>
-                <li>OOP</li>
-                <li>Material UI</li>
-                <li>Responsive Design</li>
-                <li>Axios</li>
-              </ul><ul>
-                <li>RESTful API's</li>
-                <li>Database manipulation</li>
-                <li>MongoDB</li>
-                <li>Mongoose</li>
-                <li>Express</li>
-                <li>PostgreSQL</li>
-                <li>Ruby on Rails</li>
-                <li>Command Line Interface</li>
-                <li>Git</li>
-                <li>NPM</li>
+                <li>SCSS</li>
+              </ul>
+              <ul>
+                <li>Stencil.js</li>
+                <li>Next.js</li>
+                <li>API integration</li>
+                <li>Github</li>
+                <li>Gitlab</li>
+                <li>Rally</li>
               </ul>
             </div>
           </div>
